@@ -35,7 +35,8 @@ public class Main {
             e.printStackTrace();
         }
     }
-    //Read
+
+    //Update
     public static void writeAFile(){
         try{
             Files.writeString(filepath,"This is the end my Friend..");
@@ -44,7 +45,7 @@ public class Main {
         }
     }
 
-    //Update
+    //Read
     public static void readAFile(){
         String temp;
         try{
